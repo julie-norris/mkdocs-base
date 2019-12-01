@@ -1,13 +1,15 @@
-# Welcome to MkDocs
+# Welcome to My Technical Take Home Page
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+To visit my personal website, go to: [julie-norris.com](https://julie-norris.com).
 
-## Commands
+## Questions
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+#* `mkdocs new [dir-name]` - Create a new project.
+#* `mkdocs serve` - Start the live-reloading docs server.
+#* `mkdocs build` - Build the documentation site.
+#* `mkdocs help` - Print this help message.
+
+
 
 ## Project layout
 

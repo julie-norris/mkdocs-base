@@ -19,6 +19,10 @@
 
 (There really aren’t any other list items that are dislikes for me)
 
+#### What is your favorite thing about providing technical support?
+>My favorite thing about providing technical support is finding the answer to the >problem and then being able to share the solution with the customer. Seeing the >customer’s satisfaction when I am able to provide a solution is really rewarding. >And it starts to build great rapport so that the customer has confidence in my >ability to help them when there are more challenging problems down the line. 
+
+
 
 
 

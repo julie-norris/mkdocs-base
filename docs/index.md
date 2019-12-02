@@ -25,13 +25,13 @@
 
 #### What is your favorite thing about providing technical support?
 
-My favorite thing about providing technical support is finding the answer to the problem and then being able to share the solution with the customer. Seeing the customer’s satisfaction when I am able to provide a solution is really rewarding. And it starts to build great rapport so that the customer has confidence in my >ability to help them when there are more challenging problems down the line. 
+My favorite thing about providing technical support is finding the answer to the problem and then being able to share the solution with the customer. Seeing the customer’s satisfaction when I am able to provide a solution is really rewarding. And it starts to build great rapport so that the customer has confidence in my ability to help them when there are more challenging problems down the line. 
 
 
 
 #### What did you think of our service during the time you used it?  Provide either some constructive criticism or some points that impressed you.  Be honest!  “It sucked” isn’t a wrong answer unless you don’t elaborate and provide some constructive criticism ;)
 
-My first experience with the service was to create my personal website.  I used some boilerplate templates to create my personal website and when I used Netlify to deploy the site it was very simple and easy and deployed quickly. 
+My first experience with the service was to create my personal website. I used some boilerplate templates to create my personal website and when I used Netlify to deploy the site it was very simple and easy and deployed quickly. 
 Using the staticgen website proved to be a bit more challenging because I encountered errors in trying to deploy.  One issue was that the server was running but I got a 'page not found' error. It would be hugely benficial if the resulting alert box says "it’s working but there is no content". 
 
 
@@ -47,6 +47,7 @@ Initially when I looked at the options on staticgen.com I thought I would use Je
 [Twilio REST APIs](https://www.twilio.com/docs/usage/api)
 
 I think the Twilio API documentation is well done. I used it when I added SMS messaging to my app, Carpool! that I created during my Hackbright Academy Fellowship.  The documentation is well done because it starts with some general explanation about APIs and authentication. The docs then go on to provide small digestible chunks of information specific to different functionality of their product with examples. As a new developer when I created my app I was able to read through the information and look at the sample code and apply it to my own needs. 
+
 
 
 #### Why do you think SSL/HTTPS is important? 

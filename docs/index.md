@@ -55,6 +55,19 @@ The short answer to this question is - Because we should all be concerned with s
 
 
 
+#### A customer writes in saying their “site won’t build”.  
+Compose:
+o	your best short (2-paragraph) customer-facing answer, 
+o	without any additional data, 
+o	that could be useful in the generic case, 
+o	but would also lead to a customer providing a more actionable response.
+
+To problem solve, take a look at the log. What does the log say? Some frequent errors are :exit status 128, command not found, and case sensitivity. If your error is :exit status 128, try this: eliminate the error: (go to Settings > Build & deploy > Continuous deployment > Build settings, select Edit settings, then Link to a different repository). If your error is “command not found”, you may not have added the software required for that command hasn’t been installed in your build. You may need to add a Gemfile, requirements.txt, or pakage.json depending on which language you are using. For a ‘case sensitive’ error the cause is due to the fact that netlify is a case sensitive system and the language you are using may not be. In that case, go back and check the consistency of your code in regards to upper and lower case letters. You will have to remove the file and then add it again. 
+If this information doesn’t get the desired results, retrace your steps to determine what you were trying to do at the point in your project when you got the error, what error you got, and exactly what is happening. 
+
+
+
+
 
 
 

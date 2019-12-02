@@ -34,6 +34,13 @@ Using the staticgen website proved to be a bit more challenging because I encoun
 
 Initially when I looked at the options on staticgen.com I thought I would use Jekyll because I had used that to make my personal website. Then I decided to do some research about the other options and gave some of them a try. Ultimately I ran into the same error several times in that the log said I had succeeded but the site said I failed. I realized I had to add content. I added a README.md and an Index.html to a few of the deploys I had set up and got them running. Ultimately I decided to use the mkDocs generator because it was a very easy to follow process.  After I built the site using the mkDocs build command I simply added the content using markdown on the Index.
 
+#### Provide a link to documentation for a technical/developer-focused product, which you think are well done, and briefly explain why you think they are well done.
+
+[Twilio REST APIs] (https://www.twilio.com/docs/usage/api)
+
+I think the Twilio API documentation is well done. I used it when I added SMS messaging to my app, Carpool! that I created during my Hackbright Academy Fellowship.  The documentation is well done because it starts with some general explanation about APIs and authentication. The docs then go on to provide small digestible chunks of information specific to different functionality of their product with examples. As a new developer when I created my app I was able to read through the information and look at the sample code and apply it to my own needs. 
+
+
 
 
 

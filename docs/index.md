@@ -2,7 +2,8 @@
 
 ## Questions
 
-#### Rank your 5 favorite, and 5 least favorite, activities from this list: https://gist.github.com/fool/b0f254ff8c72a5765b6a9138249789d6
+#### Rank your 5 favorite, and 5 least favorite, activities from this list: [5 favorites and 5 least favorite](https://gist.github.com/fool/b0f254ff8c72a5765b6a9138249789d6)
+
 * Top 5:
 
     1. Receive occasional phone calls requesting support from our highest-value customers

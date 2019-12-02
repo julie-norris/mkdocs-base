@@ -70,8 +70,9 @@ o	without any additional data,
 o	that could be useful in the generic case, 
 o	but would also lead to a customer providing a more actionable response.  
 
-To problem solve, take a look at the log. What does the log say? Some frequent errors are :exit status 128, command not found, and case sensitivity. If your error is :exit status 128, try this: eliminate the error: (go to Settings > Build & deploy > Continuous deployment > Build settings, select Edit settings, then Link to a different repository). If your error is “command not found”, you may not have added the software required for that command hasn’t been installed in your build. You may need to add a Gemfile, requirements.txt, or pakage.json depending on which language you are using. For a ‘case sensitive’ error the cause is due to the fact that netlify is a case sensitive system and the language you are using may not be. In that case, go back and check the consistency of your code in regards to upper and lower case letters. You will have to remove the file and then add it again. 
-If this information doesn’t get the desired results, retrace your steps to determine what you were trying to do at the point in your project when you got the error, what error you got, and exactly what is happening. 
+Does your log say that that your site is live? If not, there should be a specific error that may lead to understanding better what is going on. Has the build command been set properly in the build settings? If the site is live but you can't see it, are you using your personal computer or that of your organization and could the firewall be causing problems?
+
+If this information doesn’t get the desired result, can you retrace your steps to determine what you were trying to do at the point when the build broke, and share exactly what is happening. If you can send a screen shot of your log that would help.
 
 
 
@@ -79,9 +80,9 @@ If this information doesn’t get the desired results, retrace your steps to det
 
 In JavaScript these three lines would execute the redirect correctly:
 
-things = location.pathname.split('/');
-    anything = things[things.length-1];
-    location.replace("https://www.google.com/search?q=" + anything);	
+	things = location.pathname.split('/');
+    	anything = things[things.length-1];
+    	location.replace("https://www.google.com/search?q=" + anything);	
 
 
 

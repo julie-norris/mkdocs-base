@@ -49,6 +49,12 @@ Initially when I looked at the options on staticgen.com I thought I would use Je
 I think the Twilio API documentation is well done. I used it when I added SMS messaging to my app, Carpool! that I created during my Hackbright Academy Fellowship.  The documentation is well done because it starts with some general explanation about APIs and authentication. The docs then go on to provide small digestible chunks of information specific to different functionality of their product with examples. As a new developer when I created my app I was able to read through the information and look at the sample code and apply it to my own needs. 
 
 
+#### Why do you think SSL/HTTPS is important? 
+
+The short answer to this question is - Because we should all be concerned with security! The long answer is that using SSL/HTTPS gives us a level of security that HTTP did not. The data between the browser and the server is encrypted when using SSL/HTTPS so that no one can read it. This was not the case with HTTP.   Certificates guarantee that the site being accessed is the correct site and prevents phishing sites from gaining accessing. 
+
+
+
 
 
 

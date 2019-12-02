@@ -38,8 +38,8 @@ Using the staticgen website proved to be a bit more challenging because I encoun
 
 #### Talk about how you made your site and why you chose the tools you did.  Briefly explain a challenge you experienced in setting up this site and how you solved it.
 
-Initially when I looked at the options on staticgen.com I thought I would use Jekyll because I had used that to make my personal website. Then I decided to do some research about the other options and gave some of them a try. Ultimately I ran into the same error several times in that the log said I had succeeded but the site said I failed. I realized I had to add content. I added a README.md and an Index.html to a few of the deploys I had set up and got them running. Ultimately I decided to use the mkDocs generator because it was a very easy to follow process.  After I built the site using the mkDocs build command I simply added the content using markdown on the Index.
-
+Initially when I looked at the options on staticgen.com I thought I would use Jekyll because I had used that to make my personal website. Then I decided to do some research about the other options and gave some of them a try. Ultimately I decided to use the mkDocs generator because it is a good template for writing documentation. This made sense given the task of answering the questions for this interview exercise. I followed the instructions on [Netlify Common Configurations Documentation](https://docs.netlify.com/configure-builds/common-configurations/#mkdocs).
+While I was testing different generators, before I decided to use mkDocs, I ran into the same error several times. The log was showing that the deploy succeeded, but the site was giving an error message. After adding content to the site this error no longer occurs. This can be confusing and different wording in the error message would be useful to end users. 
 
 
 #### Provide a link to documentation for a technical/developer-focused product, which you think are well done, and briefly explain why you think they are well done.
@@ -52,12 +52,14 @@ I think the Twilio API documentation is well done. I used it when I added SMS me
 
 #### Why do you think SSL/HTTPS is important? 
 
-The short answer to this question is - Because we should all be concerned with security! The long answer is that using SSL/HTTPS gives us a level of security that HTTP did not. The data between the browser and the server is encrypted when using SSL/HTTPS so that no one can read it. This was not the case with HTTP.   Certificates guarantee that the site being accessed is the correct site and prevents phishing sites from gaining accessing. 
+Because we should all be concerned with security! Using SSL/HTTPS gives us a level of security that HTTP did not. The data between the browser and the server is encrypted when using SSL/HTTPS so that no one can read it. This was not the case with HTTP.   Certificates guarantee that the site being accessed is the correct site and prevents phishing sites from gaining accessing. 
 
 
 
 #### Explain, in a couple of paragraphs, what you think 2 major challenges around DNS configuration are for less-technical internet end-users.
-Two major challenges around DNS configuration for less-technical internet end-users are when they type in a URL and get an error saying that the page doesn’t exist or isn’t available. The first is that the URL might not be associated with the correct IP address on the DNS that their device is associated with. The relationship between the URL and the IP address will eventually be established on their DNS but may take some time. The second issue is that the IP address may have changed and their device has the old IP address cached. In order to reach the website they want, they will need to clear their cache but that may be challenging for less-technical end users. 
+
+There are two major challenges around DNS configuration for less-technical internet end-users when they type in a URL and get an error saying that the page doesn’t exist or isn’t available. 
+The first challenge is that the DNS might not be up to date. In that case the end user would get an error until the DNS is updated. This might take some time. The second issue is that the IP address may have changed and the device being used has the old IP address cached. In order to reach the website, the user will need to clear the cache. 
 
 
 
@@ -74,6 +76,7 @@ If this information doesn’t get the desired results, retrace your steps to det
 
 
 #### (optional/bonus) Can you set up a redirect from “/netlify/anything” to https://www.google.com/search?q=anything ?
+
 In JavaScript these three lines would execute the redirect correctly:
 
 things = location.pathname.split('/');
@@ -83,6 +86,7 @@ things = location.pathname.split('/');
 
 
 #### (optional/bonus) Could you give us a suggestion to improve this test or the job posting?
+
 The previous question is confusing because it is unclear if you are asking for a redirect from one specific ‘anything’ to another specific ‘anything’ , ie. a hard coded path, or to a general ‘anything’, ie. a variable path.  
 
 

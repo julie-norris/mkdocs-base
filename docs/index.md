@@ -32,7 +32,7 @@ My favorite thing about providing technical support is finding the answer to the
 #### What did you think of our service during the time you used it?  Provide either some constructive criticism or some points that impressed you.  Be honest!  “It sucked” isn’t a wrong answer unless you don’t elaborate and provide some constructive criticism ;)
 
 My first experience with the service was to create my personal website. I used some boilerplate templates to create my personal website and when I used Netlify to deploy the site it was very simple and easy and deployed quickly. 
-Using the staticgen website proved to be a bit more challenging because I encountered errors in trying to deploy.  One issue was that the server was running but I got a 'page not found' error. It would be hugely benficial if the resulting alert box says "it’s working but there is no content". 
+Using the staticgen website proved to be a bit more challenging because I encountered errors in trying to deploy.  One issue was that the server was running but I got a 'page not found' error. It would be hugely beneficial if the resulting alert box said "it’s working but there is no content". 
 
 
 
@@ -70,9 +70,9 @@ o	without any additional data,
 o	that could be useful in the generic case, 
 o	but would also lead to a customer providing a more actionable response.  
 
-Does your log say that that your site is live? If not, there should be a specific error that may lead to understanding better what is going on. Has the build command been set properly in the build settings? If the site is live but you can't see it, are you using your personal computer or that of your organization and could the firewall be causing problems?
+Does your log say that that your site is live? If not, there should be a specific error that may lead to understanding better what is going on. If it is not live, check that the build command is set properly in the build settings. If the site is live but you can't access it, could the firewall be causing problem?
 
-If this information doesn’t get the desired result, can you retrace your steps to determine what you were trying to do at the point when the build broke, and share exactly what is happening. If you can send a screen shot of your log that would help.
+If this information doesn’t get the desired result, can you share where you were in the process when it broke, and share exactly what is happening. If you can send screen shots that would help too.
 
 
 
